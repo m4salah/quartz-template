@@ -1,7 +1,7 @@
 ---
+share: "true"
 title: Mohamed A. Salah
 ---
-
 [![Ceasefire Now](https://badge.techforpalestine.org/default)](https://techforpalestine.org/learn-more)
 
 Hello internet, I'm **Mohamed Abdelkhalek Salah** (Arabic: **محمد عبدالخالق صلاح**). This is my  [digital garden](https://github.com/MaggieAppleton/digital-gardeners). It’s a public space.
@@ -19,8 +19,6 @@ I'm a **Software Engineer**. Adoptable with any technology for now I'm using [No
 * [Redroc](https://redroc.xyz): image sharing website, using #go and #gRPC for the backend, #nextjs for the frontend.
 
 ## Distributed Systems Series by Ahmed Soliman
-
 [The Playlist](https://www.youtube.com/playlist?list=PLald6EODoOJW3alE1oPAkGF0bHZkPIeTK)
-
-* [[Episode 1 Why distributed system]]
-* [[Episode 2 State Machine Replication (SMR)]]
+- [[Episode 1 Why distributed system|Episode 1 Why distributed system]]
+- [[Episode 2 State Machine Replication (SMR)|Episode 2 State Machine Replication (SMR)]]
