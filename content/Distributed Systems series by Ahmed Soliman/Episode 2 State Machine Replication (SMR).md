@@ -7,7 +7,6 @@ tags:
 share: "true"
 ---
 [Youtube video](https://www.youtube.com/watch?v=j8bLPfCJdSw)
-#distributed #distributedsystems #statemachinereplication #paxos #consensus
 
 We ended up the last episode with definition of the ***Consensus Problem*** So we will try to come up with something to solve the Consensus problem.
 
