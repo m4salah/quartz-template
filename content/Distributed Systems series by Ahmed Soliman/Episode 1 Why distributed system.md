@@ -3,7 +3,6 @@ tags:
   - distributed
   - distributedsystems
 share: "true"
-category: Distributed Systems Series
 ---
 [Youtube video](https://www.youtube.com/watch?v=s_p3I5CMGJw)
 # Why distribute systems ?
