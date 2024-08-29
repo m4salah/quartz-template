@@ -5,6 +5,7 @@ tags:
   - "#statemachinereplication"
   - "#paxos"
 share: "true"
+category: Distributed System Series
 ---
 [Youtube video](https://www.youtube.com/watch?v=j8bLPfCJdSw)
 
