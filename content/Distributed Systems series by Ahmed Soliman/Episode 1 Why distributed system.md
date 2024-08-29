@@ -5,7 +5,6 @@ tags:
 share: "true"
 ---
 [Youtube video](https://www.youtube.com/watch?v=s_p3I5CMGJw)
-#distributed #systems #distributedsystems 
 # Why distribute systems ?
 ---
 ## The Wrong reasons:
