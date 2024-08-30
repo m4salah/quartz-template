@@ -21,6 +21,7 @@ import RecentNotes from "./RecentNotes"
 import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import ExplorerBurger from "./ExplorerBurger"
+import Contacts from "./Contacts"
 
 export {
   ArticleTitle,
@@ -46,4 +47,5 @@ export {
   Breadcrumbs,
   Comments,
   ExplorerBurger,
+  Contacts,
 }
