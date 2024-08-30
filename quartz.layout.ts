@@ -12,6 +12,8 @@ export const sharedPageComponents: SharedLayout = {
       }),
     ),
     Component.PageTitle(),
+    Component.DesktopOnly(Component.Spacer()),
+    Component.Contacts(),
     Component.MobileOnly(Component.Spacer()),
     Component.MobileOnly(Component.Search()),
     Component.MobileOnly(Component.Darkmode()),
