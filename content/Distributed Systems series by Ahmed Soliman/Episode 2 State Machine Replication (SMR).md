@@ -32,7 +32,9 @@ We have single machine hold in memory hash table, the interface to this store wi
 Consistency Guarantee from the node (single core single threaded or it act like single core single threaded) is if c1 make a call to set(k1, v1) and after that immediately c2 make a call get(k1) c2 should get v1 ***WHYYYY ?!***.
 Because this is single core single threaded he process one call at a time so even the call from c1 didn't finish setting the k1 c2 call will wait until c1 call processed until then there is already k1 -> v1 in the hash table.
 ![[Pasted image 20231012201619.png|Pasted image 20231012201619.png]]
-Even though the two call appears concurrently (overlapping) but the actual behavior is ***Sequential Execution***. This property called ***Strong Consistency*** 
+
+Even though the two call appears concurrently (overlapping) but the actual behavior is
+***Sequential Execution***. This property called ***Strong Consistency***  
 ### Strong Consistency
 Is property of system that behaving from the outside as like Single core single threaded, The Execution is happened as sequential order.
 ![[Pasted image 20231012202229.png|Pasted image 20231012202229.png]]
