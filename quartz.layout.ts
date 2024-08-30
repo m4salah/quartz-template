@@ -11,7 +11,7 @@ export const sharedPageComponents: SharedLayout = {
         folderClickBehavior: "link",
       }),
     ),
-    Component.PageTitle(),
+    Component.DesktopOnly(Component.PageTitle()),
     Component.DesktopOnly(Component.Spacer()),
     Component.Contacts(),
     Component.MobileOnly(Component.Spacer()),
