@@ -11,12 +11,10 @@ export const sharedPageComponents: SharedLayout = {
         folderClickBehavior: "link",
       }),
     ),
-    Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(Component.Spacer()),
-    Component.Contacts(),
+    Component.MobileOnly(Component.PageTitle()),
     Component.MobileOnly(Component.Spacer()),
-    Component.MobileOnly(Component.Search()),
-    Component.MobileOnly(Component.Darkmode()),
+    Component.Search(),
+    Component.Darkmode(),
   ],
   afterBody: [],
   footer: Component.Footer({
@@ -35,12 +33,11 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TagList(),
   ],
   left: [
-    Component.DesktopOnly(Component.Search()),
-    Component.DesktopOnly(Component.Darkmode()),
+    Component.DesktopOnly(Component.PageTitle()),
     Component.DesktopOnly(
       Component.ExplorerBurger({
         folderClickBehavior: "link",
-        folderDefaultState: "collapsed",
+        folderDefaultState: "open",
         useSavedState: true,
         title: "",
       }),
